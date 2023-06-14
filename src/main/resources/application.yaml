@@ -1,0 +1,14 @@
+auth0:
+  clientId: V0h04EfmDLytAn6OmdaW79pVLcGEPyxO
+  clientSecret: Uytjah4YnJdAhf7cGQnSBUNNwOv51v2Pr4Ct-nSEyePOQqtUHnRKXL1HfQluBGY4
+  tokenUri: https://dev-4h8gzuof.us.auth0.com/oauth/token
+spring:
+  main:
+    web-application-type: none
+  logging:
+    level:
+      org:
+        springframework:
+          security: debug
+          web:
+            client: debug
